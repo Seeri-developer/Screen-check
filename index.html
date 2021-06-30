@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Screen Width</title>
+    <style>
+        .wrapper{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            margin-top: 30vh;
+        }
+        .container{
+            height: 100px;
+            width: 200px;
+            padding: 40px; 
+            background-color: firebrick;
+        }
+        @media screen and (max-width:720px) {
+            .container{
+                background-color:#0bc991;
+            }
+        }
+        @media screen and (max-width:420px) {
+            .container{
+                background-color:#0fa4d2;
+            }
+        }
+        @media screen and (max-width:390px) {
+            .container{
+                background-color:#ef0ec3;
+            }
+        }
+
+        @media screen and (max-width:360px) {
+            .container{
+                background-color:#950fd2;
+            }
+        }
+        @media screen and (max-width:290px) {
+            .container{
+                background-color:#cf1845;
+            }
+        }
+        @media screen and (max-width:240px) {
+            .container{
+                background-color:#8def0e;
+            }
+        }
+        @media screen and (max-width:190px) {
+            .container{
+                background-color:#efeb0e;
+            }
+        }
+        @media screen and (max-width:150px) {
+            .container{
+                background-color:#cf5418;
+            }
+        }
+         
+        @media screen and (max-width:100px) {
+            .container{
+                background-color:#160eef;
+            }
+        }
+         
+    </style>
+</head>
+<body> 
+    <div class="wrapper">
+        <div class="container">
+             
+        </div>
+    </div>
+</body>
+</html>
